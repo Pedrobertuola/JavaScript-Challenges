@@ -2,12 +2,12 @@
 // [0,3,44,6,30,31]
 
 
-
 function orderArray(a1,a2) {
     const combine = [...a1, ...a2]
     return combine.sort(function(a,b){return a-b});
 }
 orderArray([0,3,4,31], [4,6,30]);
+
 
 function mergeSortedArrays(array1, array2){
     const mergedArray = [];
