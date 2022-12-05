@@ -9,6 +9,7 @@ function orderArray(a1,a2) {
 orderArray([0,3,4,31], [4,6,30]);
 
 
+
 function mergeSortedArrays(array1, array2){
     const mergedArray = [];
     let array1Item = array1[0];
